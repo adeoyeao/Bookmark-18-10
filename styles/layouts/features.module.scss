@@ -1,0 +1,31 @@
+.features {
+      display: grid;
+      grid-gap: 2rem;
+      padding: 2rem 10vw 4rem 10vw;
+      grid-template-areas:
+      "buttons"
+      "image"
+      "copy";
+      img {
+            grid-area: image
+      }
+      span {
+            grid-area: buttons;
+            display: grid;
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .features {
+            grid-template-rows: auto 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "buttons buttons"
+            "image copy";
+            span {
+                  grid-template-columns: repeat(3, 1fr);
+                  width: 75%;
+                  margin: 0 auto 2rem auto;
+            }
+      }
+}

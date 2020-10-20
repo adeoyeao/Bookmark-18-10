@@ -1,0 +1,30 @@
+.hero {
+      display: grid;
+      padding: 8rem 10vw 4rem 10vw;
+      grid-gap: 2rem;
+      grid-template-areas: 
+      "image"
+      "copy";
+      align-items: center;
+      .buttons {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-gap: 0.5rem;
+            margin-top: 2rem;
+      }
+      img {
+            grid-area: image;
+            margin-bottom: 2rem;
+            display: block;
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .hero {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr auto;
+            grid-template-areas: 
+            "copy image";
+            grid-gap: 1rem;
+      }
+}

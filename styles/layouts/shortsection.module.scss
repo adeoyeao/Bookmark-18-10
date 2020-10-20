@@ -1,0 +1,16 @@
+.shortsection {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      grid-gap: 2rem;
+      padding: 2rem 10vw;
+}
+
+@media screen and (min-width: 700px) {
+      .shortsection {
+            p {
+                  width: 75%;
+                  margin: 0 auto;
+            }
+      }
+}

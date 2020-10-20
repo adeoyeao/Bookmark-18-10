@@ -1,0 +1,18 @@
+.card {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-rows: auto 1fr auto;
+      justify-items: center;
+      padding: 1rem;
+      padding-top: 2rem;
+      border-radius: 1rem;
+      height: 371px;
+      width: 280px;
+      box-shadow: 0px 10px 20px rgba(73, 93, 207, 1);
+      background-color: white;
+      background-image: url("../../public/images/bg-dots.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left 0 bottom 6rem;
+      margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.header {
+      display: grid;
+      align-items: center;
+      padding: 1rem 10vw;
+      grid-template-columns: 1fr auto;
+      width: 100vw;
+      background: white;
+      position: fixed;
+      z-index: 5;
+}

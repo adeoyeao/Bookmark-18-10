@@ -1,0 +1,21 @@
+.footer {
+      background: #242A45;
+      padding: 2rem 10vw;
+      display: grid;
+      text-align: center;
+      justify-items: center;
+      grid-gap: 2rem;
+
+      div{ 
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 1rem;
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .footer {
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+      }
+}

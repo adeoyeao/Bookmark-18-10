@@ -1,0 +1,16 @@
+.copy {
+  display: grid;
+  grid-gap: 2rem;
+  text-align: center;
+  h1,
+  h2,
+  h3 {
+    align-self: end;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .copy--left {
+    text-align: left;
+  }
+}

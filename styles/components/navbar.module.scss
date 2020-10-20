@@ -1,0 +1,48 @@
+.navbar {
+  ul {
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+}
+
+.navbar--primary {
+  display: none;
+  color: #242a45;
+}
+
+.navbar--secondary {
+  ul {
+    li {
+      margin: 1rem;
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #fa5959;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navbar--primary,
+  .navbar--secondary {
+    display: block;
+    ul {
+      li {
+        display: inline-block;
+        margin: 1rem;
+
+        a {
+          cursor: pointer;
+          text-decoration: none;
+          &:hover {
+            color: #fa5959;
+          }
+        }
+      }
+    }
+  }
+}

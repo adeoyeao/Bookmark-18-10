@@ -1,0 +1,18 @@
+.featuresbutton {
+      padding: 1rem;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid grey;
+      appearance: none;
+      border-radius: 0;
+      cursor: pointer;
+
+      &:hover {
+            border-bottom: 2px solid #FA5959;
+      }
+
+      &:focus {
+            border-bottom: 2px solid #FA5959;
+            color: #fa5959;
+      }
+}
